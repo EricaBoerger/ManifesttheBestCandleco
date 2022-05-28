@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:  Erica Boerger
+   Date:     4/9/2022
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: normal;
+	background-color: #d7cbc9;
+}
+
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: #d7cbc9;
+}
+
+
+header {
+	border: 1px solid #d7cbc9;
+	border-radius: 25px;  
+    box-shadow: 15px 15px 5px 0 #948481
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 98%;
+}
+
+#main {
+    border-left: 2px solid;
+    border-right: 2px solid;      
+    color: #948481;
+    float: left;
+    padding: 10px; 
+    width: 446px;
+   
+   
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+
+aside {
+	float: right; 
+    margin: 0 5px 0 5px; 
+    padding: 10px;
+    width: 200px;
+}
+
+aside p {
+	font-size: 0.9em;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+    text-align: center;
+   
+}
+
+h3 {
+	padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    
+}
+
+footer {
+	border: 1px solid #d7cbc9;
+	border-radius: 25px;  
+    box-shadow: 15px 15px 5px 0 #948481;
+    background-color: #d7cbc9;
+    clear: both;
+    color: #a19997;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#wrapper {
+    border: 2px solid;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    width: 930px;
+   
+}/* navigation for footer */
+footer a:link {
+    color: #a19997;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #a19997;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
