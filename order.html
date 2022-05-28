@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+    
+    Starting Page sample for final project - for educational purposes, all content is fictional 
+    Author: Erica Boerger
+	Term and Year: Spring 2022
+
+    Filename: reviews.html
+   -->
+   <meta name="keywords" content="Mediumship, Tarot, Clarification, Birthcharts, Palmistry" />
+   <title>Accidental Oracle</title>
+   <link href="css/base.css" rel="stylesheet" />
+   <link href="css/layout.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+   <header>
+      <a href="index.html"><img src="images/accidentaloracle.png" alt="Accidental Oracle" /></a>
+      <nav>
+         <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="order.html">Order Now</a></li>
+            <li><a href="social.html">Social</a></li>
+         </ul>
+      </nav>
+      
+		<h1>Submit Information to Request an Invoice</h1> 
+   		<form id="Request" action="http://www.manifesthebestcandleco@gmail.com" method= "post">
+	
+	<fieldset id="custInfo">
+		<legend>Client Information</legend>
+		<div class= "formRow">
+			<label for= "name"> Name* </label>
+			<input name="custName" id="name" type="text" placeholder= "first and last name" />
+		</div>	
+
+		<div class= "formRow">	
+			<label for= "phone"> Phone Number </label>
+			<input name="custPhone" id="phone" type="tel" placeholder= "nnn-nnn-nnnn" />	
+		</div>	
+		
+		<div class= "formRow">
+			<label for= "mail">Email* </label>
+			<input name="custEmail" id="mail" type="email" />	
+		</div>
+
+		<div class= "formRow">
+			<label for="scent">SCENT</label> <br>
+			<select name="infoSrc" id="hear" size="4" multiple>
+			<option value="van">Vanilla</option>
+			<option value="lav">Lavender</option>
+			<option value="ls">Love Spell</option>
+			<option value="euc">Eucalyptus</option>
+			</select>
+		</div>		
+	<div class= "formRow">
+			<label for="size">SIZE</label> <br>
+			<select name="infoSrc" id="hear" size="4" multiple>
+			<option value="two">Two Ounce for $6</option>
+			<option value="four">Four Ounce for $9</option>
+			</select>
+		</div>		
+
+
+		<div class= "formRow">
+			<label for="info"> INTENTION</label> <br> 
+			<select name="infoSrc" id="info" size="5" multiple>
+			<option value="ab">Abundance</option>
+			<option value="sl">Self Love</option>
+			<option value="gv">Good Vibes</option>
+			<option value="sr">Stress Relief</option>
+			<option value="gr">Grounding</option>
+			<option value="cstm">Custom</option>
+		</select>
+		</div>
+		</fieldset>
+
+			<label for="commBox"> Custom Intention </label>
+			<textarea name="custom" id=commBox></textarea>
+			<label for="commBox"> Additional Information </label>
+			<textarea name="information" id=commBox></textarea>
+	</fieldset>
+	
+	<div id="buttons">
+		<input type="submit" value="Submit My Request" />
+		<input type="reset" value="Cancel" />
+  	</div>
+  	</form>
+   <footer>
+     <a href="mailto:accidental_oracle@example.com">accidental_oracle@example.com</a> <br> <a href="tel:14025550870">(402) 555-0870</a> <br> Accidental Oracle. 339 North 25th Street. Beatrice Nebraska. <br> <a target="_blank" href=https://www.facebook.com> Find Us On Facebook </a>
+   </footer>
+</body>
+</html>
